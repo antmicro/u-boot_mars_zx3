@@ -7,5 +7,7 @@ compile with:
 
 export PATH=/path/to/toolchain:$PATH
 
-ARCH=arm CROSS_COMPILE=<toolchain-prefix> make zx3_ant_config 
-ARCH=arm CROSS_COMPILE=<toolchain-prefix> make
+
+ARCH=arm CROSS_COMPILE=toolchain-prefix make zx3_ant_config 
+
+ARCH=arm CROSS_COMPILE=toolchain-prefix make
